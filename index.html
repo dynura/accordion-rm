@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion UI Component</title>
+    <meta name="description" content="An interactive FAQ accordion component with smooth slide transitions.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="wrapper">
+        <div class="accordion-card">
+            <h1 class="card-title">Frequently Asked Questions</h1>
+            
+            <div class="accordion-group">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="content-1">
+                        <span>What is roadmap.sh?</span>
+                        <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="content-1" class="accordion-content" aria-hidden="true">
+                        <div class="content-inner">
+                            <p>roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide developers in picking up a path and guiding their learnings.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="content-2">
+                        <span>Is it free?</span>
+                        <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="content-2" class="accordion-content" aria-hidden="true">
+                        <div class="content-inner">
+                            <p>Yes, roadmap.sh is completely free to use. All the educational maps, tracking metrics, and specialized milestone templates are public-domain resources.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="content-3">
+                        <span>Can I request a new roadmap?</span>
+                        <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="content-3" class="accordion-content" aria-hidden="true">
+                        <div class="content-inner">
+                            <p>Yes! You can suggest changes by opening issues or submitting pull requests directly on the community GitHub repositories, or upvote existing requests on the roadmap tracking boards.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="content-4">
+                        <span>How are roadmaps created?</span>
+                        <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="content-4" class="accordion-content" aria-hidden="true">
+                        <div class="content-inner">
+                            <p>Roadmaps are created by analyzing industry standards, collecting extensive community feedback, and partnering with experienced domain engineers to refine curriculum targets carefully.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false" aria-controls="content-5">
+                        <span>What are the plans for roadmap.sh?</span>
+                        <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div id="content-5" class="accordion-content" aria-hidden="true">
+                        <div class="content-inner">
+                            <p>Future plans include interactive practice tracks, algorithmic evaluation modules, personalized timeline building tools, and deep integration with native project-based learning tracks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+        <footer class="project-footer">
+            <p>&copy; 2026 HTML & CSS Project. For personal use only.</p>
+            <p class="credit-text">Inspired by the roadmap.sh component engineering tracks.</p>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
